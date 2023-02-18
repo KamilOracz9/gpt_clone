@@ -92,11 +92,11 @@ const handleSubmit = async (e) => {
 
     typeText(messageDiv, parseData);
   } else {
-    const err = await response.text();
+    // const err = await response.text();
 
     messageDiv.innerHTML = "Sometimes went wrong";
 
-    alert(err);
+    // console.log(err);
   }
 }
 
